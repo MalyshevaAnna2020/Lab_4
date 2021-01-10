@@ -1,6 +1,6 @@
 package human;
 
-public class AgeException extends Exception{
+public class AgeException extends RuntimeException{
     public AgeException() {
     }
 
