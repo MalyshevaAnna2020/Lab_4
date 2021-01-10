@@ -2,7 +2,7 @@ package themain;
 
 import karlson.Man;
 
-public class HumanDoesNotExistException extends Exception{
+public class HumanDoesNotExistException extends RuntimeException{
     public HumanDoesNotExistException() {
     }
 
